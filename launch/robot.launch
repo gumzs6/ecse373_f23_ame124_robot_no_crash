@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find robot_no_crash)/launch/robot_supervisor.launch" />
+    <remap from="laser_1" to="laser_0" />
+    <include file="/home/osboxes/stdr_simulator/stdr_launchers/launch/server_with_map_and_gui_plus_robot.launch" />
+</launch>
