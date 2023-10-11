@@ -17,6 +17,6 @@
         <li>robot.launch starts the STDR Simulator with the map and the robot, the robot_no_crash node, and the rqt GUI to control the robot.</li>
     </ol>
 <p>
-<p>Edit the robot.launch file and ensure the path of the include file has /home/< your-username > ... </p>
+<p>Edit the robot.launch file and ensure the path of the include file has /home/< your-username >/ ... </p>
 <p>Run the following command from the workspace.</p>
  <blockquote>roslaunch robot_no_crash robot.launch</blockquote>
