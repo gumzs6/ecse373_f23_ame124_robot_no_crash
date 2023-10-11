@@ -18,5 +18,8 @@
     </ol>
 <p>
 <p>Edit the robot.launch file and ensure the path of the include file has /home/< your-username >/ ... </p>
-<p>Run the following command from the workspace.</p>
- <blockquote>roslaunch robot_no_crash robot.launch</blockquote>
+<p>Run the following two commands from the workspace.</p>
+ <blockquote>
+     roslaunch robot_no_crash robot.launch
+     rqt
+ </blockquote>
